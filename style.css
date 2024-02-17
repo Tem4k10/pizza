@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: blanchedalmond;
+    font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* стилі для хедера */
+.header {
+    background-color: rgb(221, 103, 82);
+    padding: 10px 0;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-img {
+    width: 120px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-link {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-left: 50px;
+
+}
+
+.header-link:hover,
+header-link:focus {
+    color: blanchedalmond;
+
+}
+
+.pizza-button {
+    font-weight: bold;
+    background-color: #e21e3d;
+    border-radius: 5px;
+
+
+
+
+
+}
+
+.Gallery-img {
+    background-color: blanchedalmond;
+    gap: 50px;
+}
+
+/* Головна секція */
+
+.hero {
+    padding: 50 0;
+
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.hero-title {
+    background-color: rgb(255, 167, 123);
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.hero-text {
+    padding-bottom: 30px;
+}
+/* інгрідієнти до тіста */
+.dough{
+    background-color: rgb(255, 167, 123);
+    padding: bottom 50px; ;
+    padding-top: 50px;
+}
+.dough-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.dough-title{
+    background-color: rgb(255, 167, 123);
+    font: size 33px ;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.dough-list{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* 3 секція */
+.filling{
+    background-color: blanchedalmond;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.filling-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+filling-title{
+    color: rgb(113, 27, 12);
+    font-style: 33px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.filling-list{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    list-style: disc;
+}
+/* підвал */
+.footer{
+    background-color: rgb(221, 103, 82);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer-container{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-text{
+    color: white;
+    font-size: 18px;
+}
+.footer-img{
+    width:30px ;
+    padding-left:20px ;
+}
